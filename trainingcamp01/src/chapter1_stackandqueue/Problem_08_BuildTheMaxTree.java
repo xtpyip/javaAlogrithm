@@ -71,6 +71,7 @@ public class Problem_08_BuildTheMaxTree {
         }
     }
 
+    //前序遍历
     public static void printPreOrder(Node head){
         if(head == null){
             return;
@@ -79,6 +80,7 @@ public class Problem_08_BuildTheMaxTree {
         printPreOrder(head.left);
         printPreOrder(head.right);
     }
+    // 中序遍历
     public static void printOrder(Node head){
         if(head == null){
             return;
